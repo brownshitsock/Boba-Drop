@@ -1,0 +1,90 @@
+body {
+	font-family: system-ui, sans-serif;
+	display: grid;
+	place-content: center;
+	min-height: 100vh;
+	margin: 0;
+	text-align: center;
+	padding: 24px;
+	background-color: black;
+}
+#intro {
+	  max-width: 500px;
+		margin: 0 auto;
+		margin-bottom: 24px;
+		color: #FFFFFF;
+		font-family: 'Anton', sans-serif;
+}
+button {
+	padding: 0.8rem 1.6rem;
+	font-size: 1.4rem;
+	font-weight: 700;
+	font-family: 'Anton', sans-serif;
+	letter-spacing: 1px;
+	-webkit-text-stroke: 0px;
+	border-radius: 8px;
+	border: 0;
+	background: #E60012;
+	color:white;
+	cursor: pointer;
+	justify-self: center;
+}
+#Heading {
+	font-family: 'Anton', sans-serif;
+	color: white;
+}
+#Gaming {
+	color: #FFFFFF
+}
+.game-images {
+	display: flex;
+	gap: 20px;
+	margin-top: 30px;
+}
+
+.game-images img {
+	width: 30%;
+	height: 300px;
+	object-fit: cover;
+	border: 3px solid #FF0000
+}
+#Reading {
+	color: #FFFFFF
+}
+.manga-images {
+ display: flex;
+ gap: 20px;
+ margin-top: 30px;
+}
+
+.manga-images img {
+ width: 30%;
+ height: 300px;
+ object-fit: cover;
+ border: 3px solid #FF0000;
+}
+.anime-images {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.anime-images img {
+    width: 30%;
+    height: 300px;
+    object-fit: cover;
+    border: 3px solid #FF0000;
+}
+#anime {
+	color: #FFFFFF
+}
+#go {
+    display: block;
+    margin: 40px auto;
+    padding: 12px 24px;
+    background-color: #FF0000;
+    color: white;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+}
